@@ -27,5 +27,4 @@ test('Locators Test', async ({ page }) => {
     await page.getByPlaceholder('Search').fill('testers talk');
 
 
-
 });
