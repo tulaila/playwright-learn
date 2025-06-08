@@ -12,7 +12,7 @@ test('Screenshots Test', async ({ page }) => {
   await page.screenshot({ path:'./screenshots/Scrollable.png', fullPage: true });
 
   // Take a screenshot of a specific element
-  const element = page.getByRole('heading', { name: 'Installation0' });
+  const element = page.getByRole('heading', { name: 'Installation' });
   await element.screenshot({ path:'./screenshots/Element.png' });
 
   // Take a screenshot of a specific PART of the page
