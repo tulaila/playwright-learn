@@ -1,0 +1,15 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.664439000000001">
+<testsuite name="Chapter04\05_VideoRecord_Test.spec.ts" timestamp="2025-06-19T03:37:56.596Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="2.795" errors="0">
+<testcase name="Test011" classname="Chapter04\05_VideoRecord_Test.spec.ts" time="2.795">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter04-05_VideoRecord_Test-Test011-Google-Chrome\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter04-05_VideoRecord_Test-Test011-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|test-results\Chapter04-05_VideoRecord_Test-Test011-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

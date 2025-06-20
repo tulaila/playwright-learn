@@ -10,6 +10,6 @@ test('Date Picker Test', async ({ page }) => {
  await iframe.locator('#datepicker').click(); // Click on the date picker input
  await iframe.locator('.ui-datepicker-today').click(); // todays date
 
-
+     // Verify that the date input has the expected value
     
 });
