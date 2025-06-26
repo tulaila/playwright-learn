@@ -1,0 +1,351 @@
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: CA
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fplaylist%253Flist%253DPLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - img "Play all"
+  - button "Play all"
+  - heading "JavaScript by Testers Talk☑️" [level=1]
+  - link "by Testers Talk":
+    - link "by Testers Talk":
+      - /url: /@testerstalk
+  - text: "Playlist 38 videos 5,898 views JavaScript by Testers Talk #javascript #javascript_tutorial #javascriptinterview #programming #software #computer"
+  - 'button "Description. JavaScript by Testers Talk #javascript #javascript_tutorial ...tap for more."': ...more
+  - link "Play all":
+    - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&pp=iAQB
+  - button "Save playlist"
+  - button "Share"
+  - button "More actions"
+  - text: "1"
+  - heading "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners 4 hours, 30 minutes" [level=3]:
+    - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners":
+      - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=1&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 9.1K views • 1 year ago
+  - button "Action menu"
+  - text: "2"
+  - heading "JavaScript Tutorial For Beginners Chapter01 1 hour, 4 minutes" [level=3]:
+    - link "JavaScript Tutorial For Beginners Chapter01":
+      - /url: /watch?v=X46I88W6uIE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=2&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 1.1K views • 1 year ago
+  - button "Action menu"
+  - text: "3"
+  - heading "JavaScript Tutorial For Beginners Chapter02 40 minutes" [level=3]:
+    - link "JavaScript Tutorial For Beginners Chapter02":
+      - /url: /watch?v=F53-G9XkZ0E&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=3&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 1.6K views • 1 year ago
+  - button "Action menu"
+  - text: "4"
+  - heading "JavaScript Tutorial For Beginners Chapter03 59 minutes" [level=3]:
+    - link "JavaScript Tutorial For Beginners Chapter03":
+      - /url: /watch?v=PneUCE97lQ8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=4&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 602 views • 1 year ago
+  - button "Action menu"
+  - text: "5"
+  - heading "JavaScript Tutorial For Beginners Chapter04 50 minutes" [level=3]:
+    - link "JavaScript Tutorial For Beginners Chapter04":
+      - /url: /watch?v=HgoNPWMr3mU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=5&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 438 views • 1 year ago
+  - button "Action menu"
+  - text: "6"
+  - heading "JavaScript Tutorial For Beginners Chapter05 55 minutes" [level=3]:
+    - link "JavaScript Tutorial For Beginners Chapter05":
+      - /url: /watch?v=lWDC8VF3PtM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=6&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 279 views • 1 year ago
+  - button "Action menu"
+  - text: "7"
+  - 'heading "JavaScript #1 Chapter01 Overview 3 minutes, 8 seconds" [level=3]':
+    - 'link "JavaScript #1 Chapter01 Overview"':
+      - /url: /watch?v=4LgE1uhhJ3U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=7&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 290 views • 1 year ago
+  - button "Action menu"
+  - text: "8"
+  - 'heading "JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS 3 minutes, 12 seconds" [level=3]':
+    - 'link "JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS"':
+      - /url: /watch?v=s50YyoEH1Og&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=8&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 636 views • 1 year ago
+  - button "Action menu"
+  - text: "9"
+  - 'heading "JavaScript #3 Download & Install NodeJS and Visual Studio Code 4 minutes, 3 seconds" [level=3]':
+    - 'link "JavaScript #3 Download & Install NodeJS and Visual Studio Code"':
+      - /url: /watch?v=LEtYn8GGFac&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=9&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 483 views • 1 year ago
+  - button "Action menu"
+  - text: "10"
+  - 'heading "JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox 3 minutes, 56 seconds" [level=3]':
+    - 'link "JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox"':
+      - /url: /watch?v=HrNywkSuhoM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=10&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 158 views • 1 year ago
+  - button "Action menu"
+  - text: "11"
+  - 'heading "JavaScript #5 Variables with Examples 12 minutes, 49 seconds" [level=3]':
+    - 'link "JavaScript #5 Variables with Examples"':
+      - /url: /watch?v=-Cq9hGVmWD0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=11&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 269 views • 1 year ago
+  - button "Action menu"
+  - text: "12"
+  - 'heading "JavaScript #6 Reserved Keywords and Variable Mutability with Examples 4 minutes, 42 seconds" [level=3]':
+    - 'link "JavaScript #6 Reserved Keywords and Variable Mutability with Examples"':
+      - /url: /watch?v=hJQoakNxBtA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=12&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 123 views • 1 year ago
+  - button "Action menu"
+  - text: "13"
+  - 'heading "JavaScript #7 Strings Properties and Methods with Examples 19 minutes" [level=3]':
+    - 'link "JavaScript #7 Strings Properties and Methods with Examples"':
+      - /url: /watch?v=enXeI7mNC-c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=13&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 164 views • 1 year ago
+  - button "Action menu"
+  - text: "14"
+  - 'heading "JavaScript #8 Numbers and Booleans with Examples 12 minutes, 18 seconds" [level=3]':
+    - 'link "JavaScript #8 Numbers and Booleans with Examples"':
+      - /url: /watch?v=-ucoT16jU5Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=14&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 89 views • 1 year ago
+  - button "Action menu"
+  - text: "15"
+  - 'heading "JavaScript #9 Chapter02 Overview 2 minutes, 39 seconds" [level=3]':
+    - 'link "JavaScript #9 Chapter02 Overview"':
+      - /url: /watch?v=2oq-4VdDJqY&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=15&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 79 views • 1 year ago
+  - button "Action menu"
+  - text: "16"
+  - 'heading "JavaScript #10 Objects with Examples 10 minutes, 29 seconds" [level=3]':
+    - 'link "JavaScript #10 Objects with Examples"':
+      - /url: /watch?v=fNPFawjDX6o&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=16&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 199 views • 1 year ago
+  - button "Action menu"
+  - text: "17"
+  - 'heading "JavaScript #11 Arrays with Examples 11 minutes, 7 seconds" [level=3]':
+    - 'link "JavaScript #11 Arrays with Examples"':
+      - /url: /watch?v=3PHzgPZa1PE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=17&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 248 views • 1 year ago
+  - button "Action menu"
+  - text: "18"
+  - 'heading "JavaScript #12 Comments and Prettier Code Formatter 6 minutes, 2 seconds" [level=3]':
+    - 'link "JavaScript #12 Comments and Prettier Code Formatter"':
+      - /url: /watch?v=f8wR6k3YML0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=18&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 170 views • 1 year ago
+  - button "Action menu"
+  - text: "19"
+  - 'heading "JavaScript #13 Regular Expressions with Examples 8 minutes, 56 seconds" [level=3]':
+    - 'link "JavaScript #13 Regular Expressions with Examples"':
+      - /url: /watch?v=YE5ONLW5I28&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=19&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 228 views • 1 year ago
+  - button "Action menu"
+  - text: "20"
+  - 'heading "JavaScript #14 Chapter03 Overview 1 minute, 26 seconds" [level=3]':
+    - 'link "JavaScript #14 Chapter03 Overview"':
+      - /url: /watch?v=hx5dcDzzD5w&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=20&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 56 views • 1 year ago
+  - button "Action menu"
+  - text: "21"
+  - 'heading "JavaScript #15 Arithmatic Increment & Decrement Operators with Examples 14 minutes, 13 seconds" [level=3]':
+    - 'link "JavaScript #15 Arithmatic Increment & Decrement Operators with Examples"':
+      - /url: /watch?v=A4LAtbGVoLw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=21&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 185 views • 1 year ago
+  - button "Action menu"
+  - text: "22"
+  - 'heading "JavaScript #16 Logical Operators with Examples 10 minutes, 26 seconds" [level=3]':
+    - 'link "JavaScript #16 Logical Operators with Examples"':
+      - /url: /watch?v=2Ns8EYziWns&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=22&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 70 views • 1 year ago
+  - button "Action menu"
+  - text: "23"
+  - 'heading "JavaScript #17 If, If Else, If Else If with Examples 8 minutes, 1 second" [level=3]':
+    - 'link "JavaScript #17 If, If Else, If Else If with Examples"':
+      - /url: /watch?v=CWYoskqH-Dw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=23&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 82 views • 1 year ago
+  - button "Action menu"
+  - text: "24"
+  - 'heading "JavaScript #18 Switch Statement with Examples in JavaScript 6 minutes, 56 seconds" [level=3]':
+    - 'link "JavaScript #18 Switch Statement with Examples in JavaScript"':
+      - /url: /watch?v=X-GXNSwnz4c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=24&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 43 views • 1 year ago
+  - button "Action menu"
+  - text: "25"
+  - 'heading "JavaScript #19 Ternary Operator & One Line if Statement & Examples 6 minutes, 45 seconds" [level=3]':
+    - 'link "JavaScript #19 Ternary Operator & One Line if Statement & Examples"':
+      - /url: /watch?v=nTUYH3ty6LQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=25&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 130 views • 1 year ago
+  - button "Action menu"
+  - text: "26"
+  - 'heading "JavaScript #20 TypeOf Operator with Examples 10 minutes, 27 seconds" [level=3]':
+    - 'link "JavaScript #20 TypeOf Operator with Examples"':
+      - /url: /watch?v=UcQArHb0sRg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=26&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 116 views • 1 year ago
+  - button "Action menu"
+  - text: "27"
+  - 'heading "JavaScript #21 Chapter04 Overview 1 minute, 44 seconds" [level=3]':
+    - 'link "JavaScript #21 Chapter04 Overview"':
+      - /url: /watch?v=nzLPol3zp3Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=27&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 47 views • 1 year ago
+  - button "Action menu"
+  - text: "28"
+  - 'heading "JavaScript #22 For Loops with Examples 9 minutes, 58 seconds" [level=3]':
+    - 'link "JavaScript #22 For Loops with Examples"':
+      - /url: /watch?v=cCZWfW2i14U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=28&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 66 views • 1 year ago
+  - button "Action menu"
+  - text: "29"
+  - 'heading "JavaScript #23 Set with Examples 13 minutes, 58 seconds" [level=3]':
+    - 'link "JavaScript #23 Set with Examples"':
+      - /url: /watch?v=rba_UkeoEzA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=29&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 180 views • 1 year ago
+  - button "Action menu"
+  - text: "30"
+  - 'heading "JavaScript #24 Map with Examples 18 minutes" [level=3]':
+    - 'link "JavaScript #24 Map with Examples"':
+      - /url: /watch?v=Ww_bVmMmV08&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=30&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 87 views • 1 year ago
+  - button "Action menu"
+  - text: "31"
+  - 'heading "JavaScript #25 While Loop & Do While Loop with Examples 5 minutes, 9 seconds" [level=3]':
+    - 'link "JavaScript #25 While Loop & Do While Loop with Examples"':
+      - /url: /watch?v=lBpDXdz4sDo&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=31&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 60 views • 1 year ago
+  - button "Action menu"
+  - text: "32"
+  - 'heading "JavaScript #26 Chapter05 Overview 1 minute, 20 seconds" [level=3]':
+    - 'link "JavaScript #26 Chapter05 Overview"':
+      - /url: /watch?v=OJZ8FAl_1j8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=32&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 54 views • 1 year ago
+  - button "Action menu"
+  - text: "33"
+  - 'heading "JavaScript #27 Functions with Examples 23 minutes" [level=3]':
+    - 'link "JavaScript #27 Functions with Examples"':
+      - /url: /watch?v=1vgVNR-Rfbc&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=33&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 219 views • 1 year ago
+  - button "Action menu"
+  - text: "34"
+  - 'heading "JavaScript #28 References, Objects & Functions with Examples 6 minutes, 39 seconds" [level=3]':
+    - 'link "JavaScript #28 References, Objects & Functions with Examples"':
+      - /url: /watch?v=LqaM6R6y7v8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=34&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 86 views • 1 year ago
+  - button "Action menu"
+  - text: "35"
+  - 'heading "JavaScript #29 Classes and Objects with Examples 6 minutes, 50 seconds" [level=3]':
+    - 'link "JavaScript #29 Classes and Objects with Examples"':
+      - /url: /watch?v=_gVQQqrvJn4&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=35&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 80 views • 1 year ago
+  - button "Action menu"
+  - text: "36"
+  - 'heading "JavaScript #30 Constructors, Classes & Objects with Examples 8 minutes, 50 seconds" [level=3]':
+    - 'link "JavaScript #30 Constructors, Classes & Objects with Examples"':
+      - /url: /watch?v=ix61UCO2YxU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=36&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 152 views • 1 year ago
+  - button "Action menu"
+  - text: "37"
+  - 'heading "JavaScript #31 Inheritance with Examples 7 minutes, 29 seconds" [level=3]':
+    - 'link "JavaScript #31 Inheritance with Examples"':
+      - /url: /watch?v=QTuIaCIDhyg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=37&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 271 views • 1 year ago
+  - button "Action menu"
+  - text: "38"
+  - heading "JavaScript Full Course Overview 35 seconds" [level=3]:
+    - link "JavaScript Full Course Overview":
+      - /url: /watch?v=NWxLpeWovF0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=38&pp=iAQB
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: • 227 views • 1 year ago
+  - button "Action menu"
+```

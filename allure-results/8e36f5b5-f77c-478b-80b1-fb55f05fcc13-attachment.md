@@ -1,0 +1,301 @@
+# Page snapshot
+
+```yaml
+- link "Yahoo":
+  - /url: https://ca.yahoo.com
+- button "Settings"
+- link "Sign In":
+  - /url: https://login.yahoo.com/;_ylt=AwrE.gTRTltoIgIAnWXrFAx.?.intl=ca&.lang=en-CA&pspid=2114721003&.src=search&.done=https%3A%2F%2Fca.search.yahoo.com%2Fsearch%3Ffr%3Dyfp-t%26fp%3D1%26ei%3DUTF-8%26p%3Dplaywright&activity=header-signin
+- search:
+  - text: Search query
+  - combobox "Search query": playwright
+  - button "Clear"
+  - button "Search"
+  - button "Search by voice"
+- list:
+  - listitem:
+    - tablist:
+      - tab "All" [selected]
+      - tab "Images":
+        - link "Images":
+          - /url: https://ca.images.search.yahoo.com/search/images;_ylt=AwrE.gTRTltoIgIAnmXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright&fr2=piv-web&fr=yfp-t
+      - tab "Videos":
+        - link "Videos":
+          - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAn2XrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright&fr2=piv-web&fr=yfp-t
+      - tab "News":
+        - link "News":
+          - /url: https://ca.news.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIAoGXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright&fr2=piv-web&fr=yfp-t
+      - tab "Local":
+        - link "Local":
+          - /url: https://ca.search.yahoo.com/local/s;_ylt=AwrE.gTRTltoIgIAoWXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright&fr2=piv-web&fr=yfp-t
+  - listitem:
+    - button "Anytime"
+- document:
+  - list:
+    - listitem:
+      - complementary: About 521,000 search results
+  - heading "Search Results" [level=2]
+  - list:
+    - listitem:
+      - heading "Playwright enables reliable end-to-end testing for modern web ..." [level=3]:
+        - img
+        - link "Playwright enables reliable end-to-end testing for modern web ...":
+          - /url: https://playwright.dev/
+          - text: playwright.dev Playwright enables reliable end-to-end testing for modern web ...
+      - paragraph: Playwright is a tool that enables reliable and fast end-to-end testing for web apps across browsers, platforms, and languages. It supports cross-browser, cross-platform, cross-language, and mobile web testing with features like auto-wait, web-first assertions, tracing, and full isolation.
+      - list:
+        - listitem:
+          - link "Docs":
+            - /url: https://playwright.dev/docs/intro
+          - paragraph: Playwright Test was created specifically to accommodate the...
+        - listitem:
+          - link "API":
+            - /url: https://playwright.dev/docs/api/class-playwright
+          - paragraph: Playwright module provides a method to launch a browser...
+        - listitem:
+          - link "Community":
+            - /url: https://playwright.dev/community/welcome
+          - paragraph: Join our community Discord Server to connect with other...
+        - listitem:
+          - link "Python":
+            - /url: https://playwright.dev/python/
+          - paragraph: Playwright waits for elements to be actionable prior to...
+      - list:
+        - listitem:
+          - link "Net":
+            - /url: https://playwright.dev/dotnet/docs/intro
+          - paragraph: Playwright was created specifically to accommodate the needs...
+        - listitem:
+          - link "Trace Viewer":
+            - /url: https://playwright.dev/docs/trace-viewer-intro
+          - paragraph: Recording a Trace . By default the playwright.config file...
+        - listitem:
+          - link "Java":
+            - /url: https://playwright.dev/java/docs/intro
+          - paragraph: Playwright was created specifically to accommodate the needs...
+        - listitem:
+          - link "Learn Videos":
+            - /url: https://playwright.dev/community/learn-videos
+          - paragraph: How to trigger flaky Playwright tests locally after they...
+      - text: People also search for
+      - link
+      - link "play wright":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=play%20wright
+      - link "picnic play wright":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=picnic%20play%20wright
+      - link "jason miller (playwright)":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=jason%20miller%20(playwright)
+      - link "play wright meaning":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=play%20wright%20meaning
+      - link "play wright fugard":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=play%20wright%20fugard
+      - link "golden boy play wright":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=golden%20boy%20play%20wright
+      - link "bus stop play wright":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=bus%20stop%20play%20wright
+      - link "define play wright":
+        - /url: https://ca.search.yahoo.com/search?fr=yfp-t&fp=1&ei=UTF-8&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-algo%2Cct%3Agossip&p=define%20play%20wright
+    - listitem:
+      - 'heading "GitHub - microsoft/playwright: Playwright is a framework for ..." [level=3]':
+        - img
+        - 'link "GitHub - microsoft/playwright: Playwright is a framework for ..."':
+          - /url: https://github.com/microsoft/playwright
+          - text: "github.com › microsoft › playwright GitHub - microsoft/playwright: Playwright is a framework for ..."
+      - list:
+        - listitem:
+          - link "Documentation | API reference"
+        - listitem:
+          - link "Installation"
+        - listitem:
+          - link "Capabilities"
+        - listitem:
+          - link "Examples"
+        - listitem:
+          - link "Resources"
+        - listitem:
+          - link "GeneratedCaptionsTabForHeroSec"
+      - paragraph: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.
+      - paragraph: Headless execution is supported for all browsers on all platforms. Check out system requirements for details.
+      - paragraph:
+        - link "See full list on github.com":
+          - /url: https://github.com/microsoft/playwright
+    - listitem:
+      - heading "Videos" [level=3]:
+        - link "Videos":
+          - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAvWXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright&fr=yfp-t
+      - region "carousel":
+        - group "Item 1 of 3":
+          - link "What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More! 6:13 youtube.com What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More! Jun 16, 2025 ·154 Views":
+            - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAumXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?fp=1&ei=UTF-8&p=playwright&fr=yfp-t&turl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOVF.e1GUof2bghM3yzu6wDoCEQ%26pid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6s4hQy5Nel0&tit=What%E2%80%99s+New+in+Playwright+v1.52+%26+v1.53+%E2%80%93+AI+Fixes%2C+Describable+Locators%2C+HTML+Titles+%26+More%21&pos=01&vid=201910f84dc9d8ae8b892827b8c12aba&sigr=e5xvHUEyMQM.&sigt=q8CdTx4YrKdd&sigi=aFFLMg6bHXnq
+            - img "What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More!"
+            - text: 6:13
+            - paragraph: youtube.com
+            - paragraph: What’s New in Playwright v1.52 & v1.53 – AI Fixes, Describable Locators, HTML Titles & More!
+            - paragraph: Jun 16, 2025
+            - paragraph: ·154 Views
+        - group "Item 2 of 3":
+          - link "What is Playwright? (🎭 Playwright introduction tutorial, features & demo) 12:18 youtube.com What is Playwright? (🎭 Playwright introduction tutorial, features & demo) Jun 2, 2021 ·131.7K Views":
+            - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAu2XrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?fp=1&ei=UTF-8&p=playwright&fr=yfp-t&turl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOVP.eQ_8vn360r-JGirmnkLROwHgFo%26pid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwGr5rz8WGCE&tit=What+is+Playwright%3F+%28%F0%9F%8E%AD+Playwright+introduction+tutorial%2C+features+%26+demo%29&pos=11&vid=5cf68818d69b8bfd7f197b4852bf8528&sigr=Lc7LQSozKWbQ&sigt=97ew3NNQi.HE&sigi=inYmxTczjlr7
+            - img "What is Playwright? (🎭 Playwright introduction tutorial, features & demo)"
+            - text: 12:18
+            - paragraph: youtube.com
+            - paragraph: What is Playwright? (🎭 Playwright introduction tutorial, features & demo)
+            - paragraph: Jun 2, 2021
+            - paragraph: ·131.7K Views
+        - group "Item 3 of 3":
+          - 'link "Introduction to Playwright: What is Playwright? 0:30 youtube.com Introduction to Playwright: What is Playwright? Jan 20, 2022 ·35.5K Views"':
+            - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAvGXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?fp=1&ei=UTF-8&p=playwright&fr=yfp-t&turl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOVP.vwjR8YeAFOH6MRa97DiZpQHgFo%26pid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSW3TqvhrzU4&tit=Introduction+to+Playwright%3A+What+is+Playwright%3F&pos=21&vid=5b57f4da3ed2bf1bcdca391d94445a01&sigr=O7bUCHkJPy.U&sigt=F8neaoORHzz6&sigi=DGWqkvykWH_E
+            - 'img "Introduction to Playwright: What is Playwright?"'
+            - text: 0:30
+            - paragraph: youtube.com
+            - paragraph: "Introduction to Playwright: What is Playwright?"
+            - paragraph: Jan 20, 2022
+            - paragraph: ·35.5K Views
+      - link "View all":
+        - /url: https://ca.video.search.yahoo.com/search/video;_ylt=AwrE.gTRTltoIgIAvmXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright&fr=yfp-t
+    - listitem:
+      - heading "Playwright (software) - Wikipedia" [level=3]:
+        - img
+        - link "Playwright (software) - Wikipedia":
+          - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+          - text: en.wikipedia.org › wiki › Playwright_(software) Playwright (software) - Wikipedia
+      - paragraph: Playwright is an open-source library for automating browser tasks and web scraping in Chromium, Firefox and WebKit. It supports multiple languages, features and a test runner called @playwright/test.
+    - listitem:
+      - heading "What is Playwright? Its Features, Advantages, and Disadvantages" [level=3]:
+        - img
+        - link "What is Playwright? Its Features, Advantages, and Disadvantages":
+          - /url: https://testautomationtools.dev/playwright-overview/
+          - text: testautomationtools.dev › playwright-overview What is Playwright? Its Features, Advantages, and Disadvantages
+      - paragraph: Nov 20, 2023 · Playwright is an open-source framework for end-to-end testing of web applications across multiple browsers and platforms. Learn about its features, advantages, disadvantages, and how to get started with it in JavaScript/TypeScript.
+    - listitem:
+      - heading "Introduction to the Playwright Framework - Tools QA" [level=3]:
+        - img
+        - link "Introduction to the Playwright Framework - Tools QA":
+          - /url: https://www.toolsqa.com/playwrite/software-testing/introduction-to-the-playwright
+          - text: www.toolsqa.com › introduction-to-the-playwright Introduction to the Playwright Framework - Tools QA
+      - paragraph: Oct 1, 2023 · Playwright is an open-source framework for web application testing developed by Microsoft. It supports multiple browser engines, platforms, tabs, and features to prevent flaky tests and enhance test execution speed.
+    - listitem:
+      - 'heading "Playwright Automation Framework: Tutorial - BrowserStack" [level=3]':
+        - img
+        - 'link "Playwright Automation Framework: Tutorial - BrowserStack"':
+          - /url: https://www.browserstack.com/guide/playwright-tutorial
+          - text: "www.browserstack.com › guide › playwright-tutorial Playwright Automation Framework: Tutorial - BrowserStack"
+      - paragraph: Aug 21, 2024 · Learn how to use Playwright, an open-source test automation library, with NodeJS and VSCode. Explore the features, advantages, and limitations of Playwright and how to run tests on real devices and browsers.
+    - listitem:
+      - paragraph: People also ask
+      - link "Details"
+      - button "What is playwright framework?":
+        - paragraph: What is playwright framework?
+      - link "Details"
+      - button "What is playwright?":
+        - paragraph: What is playwright?
+      - link "Details"
+      - button "What is playwright & how does it work?":
+        - paragraph: What is playwright & how does it work?
+      - link "Details"
+      - button "What are the benefits of using playwright?":
+        - paragraph: What are the benefits of using playwright?
+      - link "Details"
+      - button "What is a playwright assertion?":
+        - paragraph: What is a playwright assertion?
+      - link "Details"
+      - button "What languages does playwright support?":
+        - paragraph: What languages does playwright support?
+    - listitem:
+      - heading "What is Playwright? - Playwright Community" [level=3]:
+        - img
+        - link "What is Playwright? - Playwright Community":
+          - /url: https://playwright.tech/blog/what-is-playwright
+          - text: playwright.tech › blog › what-is-playwright What is Playwright? - Playwright Community
+      - paragraph: May 25, 2020 · Playwright is a new framework that replaces Puppeteer and supports Chromium, Firefox and WebKit with a single API. Learn how to use Playwright to automate browsers, perform tests, mock network requests and more.
+  - list:
+    - listitem:
+      - heading "Related searches" [level=3]
+      - table:
+        - rowgroup:
+          - row "play wright":
+            - cell "play wright":
+              - link "play wright":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA0GXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=play+wright&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+          - row "picnic play wright":
+            - cell "picnic play wright":
+              - link "picnic play wright":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA0WXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=picnic+play+wright&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+          - row "jason miller (playwright)":
+            - cell "jason miller (playwright)":
+              - link "jason miller (playwright)":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA0mXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=jason+miller+%28playwright%29&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+          - row "play wright meaning":
+            - cell "play wright meaning":
+              - link "play wright meaning":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA02XrFAx.;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=play+wright+meaning&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+          - row "play wright fugard":
+            - cell "play wright fugard":
+              - link "play wright fugard":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA1GXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=play+wright+fugard&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+          - row "golden boy play wright":
+            - cell "golden boy play wright":
+              - link "golden boy play wright":
+                - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA1WXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzYEdnRpZAMEc2VjA3JlbC1ib3Q-?fp=1&ei=UTF-8&p=golden+boy+play+wright&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=yfp-t
+  - list:
+    - listitem:
+      - strong: "1"
+      - link "2":
+        - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA1mXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=yfp-t&fp=1&ei=UTF-8&p=playwright&b=8&pz=7&xargs=0
+      - link "3":
+        - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA12XrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=yfp-t&fp=1&ei=UTF-8&p=playwright&b=15&pz=7&xargs=0
+      - link "4":
+        - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA2GXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=yfp-t&fp=1&ei=UTF-8&p=playwright&b=22&pz=7&xargs=0
+      - link "5":
+        - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA2WXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=yfp-t&fp=1&ei=UTF-8&p=playwright&b=29&pz=7&xargs=0
+      - link "Next":
+        - /url: https://ca.search.yahoo.com/search;_ylt=AwrE.gTRTltoIgIA2mXrFAx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=yfp-t&fp=1&ei=UTF-8&p=playwright&b=8&pz=7&xargs=0
+        - text: Next
+        - insertion
+    - listitem
+  - list:
+    - listitem:
+      - text: Playwright (software)
+      - paragraph: End-to-end testing framework
+      - paragraph:
+        - link "playwright.dev":
+          - /url: https://playwright.dev/
+      - paragraph:
+        - text: Playwright is an open-source automation library for browser testing and web scraping developed by Microsoft and launched on 31 January 2020, which has since become popular among programmers and web developers.
+        - link "Wikipedia":
+          - /url: http://en.wikipedia.org/wiki/Playwright_(software)
+      - region "carousel":
+        - group "Item 1 of 1":
+          - link "Wiki":
+            - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+          - link "Wiki":
+            - /url: https://en.wikipedia.org/wiki/Playwright_(software)
+      - link "Feedback":
+        - /url: https://yahoo.uservoice.com/forums/224445-search
+- text: Ottawa, ON · Detected from your IP address – Detect again
+- contentinfo:
+  - list:
+    - listitem:
+      - link "Yahoo":
+        - /url: https://ca.yahoo.com
+        - img "Yahoo"
+    - listitem:
+      - link "Settings":
+        - /url: https://ca.search.yahoo.com/preferences/preferences;_ylt=AwrE.gTRTltoIgIA3GXrFAx.?pref_done=https%3A%2F%2Fca.search.yahoo.com%2Fsearch%3Ffr%3Dyfp-t%26fp%3D1%26ei%3DUTF-8%26p%3Dplaywright&.bcrumb=RkeMZmrfhki
+    - listitem:
+      - link "Help":
+        - /url: https://ca.help.yahoo.com/kb/search-for-desktop
+    - listitem:
+      - link "Terms":
+        - /url: https://guce.yahoo.com/terms?locale=en-CA
+    - listitem:
+      - link "Privacy":
+        - /url: https://guce.yahoo.com/privacy-policy?locale=en-CA
+    - listitem:
+      - link "Privacy Dashboard":
+        - /url: https://guce.yahoo.com/privacy-dashboard?locale=en-CA&done=https%3A%2F%2Fca.search.yahoo.com%2Fsearch%3Ffr%3Dyfp-t%26fp%3D1%26ei%3DUTF-8%26p%3Dplaywright
+    - listitem:
+      - link "About ads":
+        - /url: https://ca.help.yahoo.com/kb/search-for-desktop/ads-yahoo-search-results-sln2244.html?impressions=true
+    - listitem: Powered by Bing™
+```

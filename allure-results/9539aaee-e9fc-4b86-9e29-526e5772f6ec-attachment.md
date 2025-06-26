@@ -1,0 +1,192 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - banner:
+    - heading "Yahoo Home" [level=1]
+    - link "Yahoo Home":
+      - /url: https://ca.yahoo.com/
+    - search:
+      - text: Search query
+      - combobox "Search query"
+      - button "Search"
+      - text: New!
+    - toolbar:
+      - link "Sign in":
+        - /url: https://login.yahoo.com/?.lang=en-CA&.intl=ca&src=homepage&.done=https%3A%2F%2Fca.yahoo.com%2F%3Fp%3Dus&pspid=2142623533&activity=ybar-signin
+      - checkbox "Notifications"
+      - link "Check your mail":
+        - /url: https://mail.yahoo.com/?.intl=ca&.lang=en-CA&pspid=2142623533&activity=ybar-mail
+        - text: Mail
+    - img
+    - link "Mail":
+      - /url: https://mail.yahoo.com/
+    - link "News":
+      - /url: https://ca.news.yahoo.com/
+    - link "Sports":
+      - /url: https://ca.sports.yahoo.com/
+    - link "Finance":
+      - /url: https://ca.finance.yahoo.com/
+    - link "Life":
+      - /url: https://ca.style.yahoo.com/
+    - link "Entertainment":
+      - /url: https://ca.movies.yahoo.com/
+    - link "More...":
+      - /url: https://ca.everything.yahoo.com/
+- heading "Skip navigation links" [level=2]
+- list:
+  - listitem:
+    - link "Skip to main content":
+      - /url: "#Main"
+  - listitem:
+    - link "Skip to sidebar":
+      - /url: "#Aside"
+- iframe
+- main:
+  - heading "top stories" [level=2]
+  - link "These birth months are linked to higher intelligence":
+    - /url: /style/expert-says-birth-months-linked-152100142.html
+    - heading "These birth months are linked to higher intelligence" [level=3]
+    - paragraph: Whether you're a skeptic or a believer in astrology, according to the experts when it comes to intelligence the month you were born in matters.
+  - list:
+    - listitem:
+      - link "Bank appoints new leader after the sudden death of its CEO":
+        - /url: /finance/news/equitable-bank-chief-executive-andrew-moor-65-dies-replacement-appointed-165852595.html
+        - heading "Bank appoints new leader after the sudden death of its CEO" [level=3]
+    - listitem:
+      - 'link "Early U.S. intel suggests strikes did not destroy Iran''s nuclear sites: Sources"':
+        - /url: /news/exclusive-early-us-intel-assessment-193907833.html
+        - 'heading "Early U.S. intel suggests strikes did not destroy Iran''s nuclear sites: Sources" [level=3]'
+    - listitem:
+      - link "Journalist realized 'how quickly' rights can be taken away in Canada":
+        - /url: /news/i-wish-canada-would-live-up-to-its-reputation-journalist-samira-mohyeddin-shares-views-on-belonging--and-betrayal--in-canada-195420826.html
+        - heading "Journalist realized 'how quickly' rights can be taken away in Canada" [level=3]
+    - listitem:
+      - link "McDonald's just dropped a Canada-exclusive menu":
+        - /url: /style/mcdonalds-just-brought-a-bunch-of-international-menu-items-to-canada--and-pizza-is-back-kind-of-193917277.html
+        - heading "McDonald's just dropped a Canada-exclusive menu" [level=3]
+    - listitem:
+      - link "Can a relationship with a decades-long age gap work?":
+        - /url: /style/im-59-shes-19-were-120041162.html
+        - heading "Can a relationship with a decades-long age gap work?" [level=3]
+  - list:
+    - listitem:
+      - strong: News
+      - text: CBC
+      - heading "Maine governor comes face to face with Canadian travel fears" [level=3]:
+        - link "Maine governor comes face to face with Canadian travel fears":
+          - /url: /news/maine-governor-comes-face-face-193420131.html
+      - paragraph: Maine's governor was confronted on Tuesday with the reality of how fearful some New Brunswickers are about visiting the United States while U.S. President Donald Trump is in the White House.Janet Mills was in Fredericton for the second day of a tour through Atlantic Canada, hoping to reverse — or at
+      - text: 3 min read
+    - figure
+    - link "Image for Taboola Advertising Unit":
+      - /url: https://tk.physicaltherapyjoint.com/click
+      - img "Image for Taboola Advertising Unit"
+    - link "Active Life Journal in Taboola advertising section · Taboola Disclosure Don't Eat That If You Have Arthritis The Worst Enemy Of Joint Pain Has Been Found! Sit Down":
+      - /url: https://tk.physicaltherapyjoint.com/click
+      - link "Active Life Journal in Taboola advertising section": Active Life Journal
+      - text: ·
+      - link "Taboola Disclosure":
+        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-homepage-canada&utm_medium=referral&utm_content=stream-d:taboola-stream-2:"
+        - text: Ad
+      - link "Don't Eat That If You Have Arthritis"
+      - text: The Worst Enemy Of Joint Pain Has Been Found! Sit Down
+    - button "View ad options":
+      - img
+    - listitem:
+      - strong: Celebrity
+      - text: People
+      - heading "YouTube Star Mikayla Raines Dies by Suicide at 29. 'She Couldn't Bear What She Was Feeling,' Says Husband" [level=3]:
+        - link "YouTube Star Mikayla Raines Dies by Suicide at 29. 'She Couldn't Bear What She Was Feeling,' Says Husband":
+          - /url: /news/youtube-star-mikayla-raines-dies-125939819.html
+      - paragraph: "\"Mikayla was truly the most amazing and inspiring individual I have ever known, and not having her here makes everything feel empty,\" her husband Ethan shared"
+      - text: 3 min read
+    - listitem
+    - listitem:
+      - strong: News
+      - text: The Canadian Press
+      - heading "Cargo ship carrying new vehicles to Mexico sinks in the North Pacific weeks after catching fire" [level=3]:
+        - link "Cargo ship carrying new vehicles to Mexico sinks in the North Pacific weeks after catching fire":
+          - /url: /finance/news/cargo-ship-carrying-vehicles-mexico-201530621.html
+      - paragraph: ANCHORAGE, Alaska (AP) — A cargo ship that had been delivering new vehicles to Mexico sank in the North Pacific Ocean, weeks after crew members abandoned ship when they couldn’t extinguish an onboard fire that left the carrier dead in the water.
+      - text: 2 min read
+    - listitem:
+      - iframe
+      - strong: News
+      - text: CBC
+      - 'heading "Video RAW: City worker weed-whacks Wayne Moody''s East Elmwood backyard lawn" [level=3]':
+        - text: Video
+        - 'link "RAW: City worker weed-whacks Wayne Moody''s East Elmwood backyard lawn"':
+          - /url: /news/raw-city-worker-weed-whacks-193109653.html
+      - paragraph: A city worker weed-whacks Wayne Moody's backyard law on June 18 in response to a complaint registered with the city he was told pertained to a few high patches on his boulevard in East Elmwood.
+    - figure
+    - link "Image for Taboola Advertising Unit":
+      - /url: https://tk.physicaltherapyjoint.com/click
+      - img "Image for Taboola Advertising Unit"
+    - 'link "Active Life Journal in Taboola advertising section · Taboola Disclosure If You Have Arthritis Avoid This Food Great Results: Doctor recommends a recipe for quick relief from hip and knee pain."':
+      - /url: https://tk.physicaltherapyjoint.com/click
+      - link "Active Life Journal in Taboola advertising section": Active Life Journal
+      - text: ·
+      - link "Taboola Disclosure":
+        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-homepage-canada&utm_medium=referral&utm_content=stream-d:taboola-stream-7:"
+        - text: Ad
+      - link "If You Have Arthritis Avoid This Food"
+      - text: "Great Results: Doctor recommends a recipe for quick relief from hip and knee pain."
+    - button "View ad options":
+      - img
+    - listitem:
+      - strong: Celebrity
+      - text: InStyle
+      - heading "Ali Larter Poses in a Tiny Red String Bikini, Revealing Her Secret to Shooting Swimsuit Scenes" [level=3]:
+        - link "Ali Larter Poses in a Tiny Red String Bikini, Revealing Her Secret to Shooting Swimsuit Scenes":
+          - /url: /news/ali-larter-poses-tiny-red-133311046.html
+      - paragraph: "\"Playing a character that is so comfortable in her body drives me.\""
+      - text: 2 min read
+    - listitem:
+      - strong: Business
+      - text: People
+      - heading "United Flight Declares Emergency 8 Hours Into Flight, Sends Out International Distress Code" [level=3]:
+        - link "United Flight Declares Emergency 8 Hours Into Flight, Sends Out International Distress Code":
+          - /url: /news/united-flight-declares-emergency-8-162117607.html
+      - paragraph: The Boeing 777 was en route from San Francisco to Rome when it issued an emergency squawk code and took a sharp turn north
+      - text: 2 min read
+    - listitem:
+      - strong: Health
+      - text: Yahoo Canada Style
+      - heading "If you're over 50, ultra-processed foods can wreak havoc on your health. Here are the worst ones to avoid" [level=3]:
+        - link "If you're over 50, ultra-processed foods can wreak havoc on your health. Here are the worst ones to avoid":
+          - /url: /style/11-sneaky-ultra-processed-foods-you-should-avoid-if-youre-over-50-according-to-doctor-170044506.html
+      - paragraph: An expert says "ultra-processed foods can sometimes be difficult to identify." Here's what to look for.
+      - text: 5 min read
+    - listitem
+  - text: Something went wrong. Try again.
+  - link "Refresh Page":
+    - /url: /
+  - button "Close"
+- complementary:
+  - heading "Trending Now" [level=3]
+  - link "1. Bones":
+    - /url: https://ca.search.yahoo.com/search?p=Bones&fr=fp-tts&fr2=ps
+  - link "2. 28 Years Later Movie":
+    - /url: https://ca.search.yahoo.com/search?p=28+Years+Later+Movie&fr=fp-tts&fr2=ps
+  - link "3. America Bombs Iran":
+    - /url: https://ca.search.yahoo.com/search?p=America+Bombs+Iran&fr=fp-tts&fr2=ps
+  - link "4. Barry Morphew":
+    - /url: https://ca.search.yahoo.com/search?p=Barry+Morphew&fr=fp-tts&fr2=ps
+  - link "5. Beyoncé":
+    - /url: https://ca.search.yahoo.com/search?p=Beyonc%C3%A9&fr=fp-tts&fr2=ps
+  - link "6. Bezos":
+    - /url: https://ca.search.yahoo.com/search?p=Bezos&fr=fp-tts&fr2=ps
+  - link "7. Boca Juniors":
+    - /url: https://ca.search.yahoo.com/search?p=Boca+Juniors&fr=fp-tts&fr2=ps
+  - link "8. Calder Cup 2025":
+    - /url: https://ca.search.yahoo.com/search?p=Calder+Cup+2025&fr=fp-tts&fr2=ps
+  - link "9. Chicago Bears Team":
+    - /url: https://ca.search.yahoo.com/search?p=Chicago+Bears+Team&fr=fp-tts&fr2=ps
+  - link "10. Bobby Sherman":
+    - /url: https://ca.search.yahoo.com/search?p=Bobby+Sherman&fr=fp-tts&fr2=ps
+  - iframe
+  - iframe
+  - iframe
+- alert
+```
