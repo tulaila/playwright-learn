@@ -1,0 +1,502 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Yahoo":
+    - /url: https://ca.yahoo.com/
+    - img "Yahoo"
+  - search:
+    - text: Search query
+    - searchbox "Search query"
+    - button "Search the web"
+  - list:
+    - listitem:
+      - link "Skip to features bar":
+        - /url: "#convenience-bar"
+    - listitem:
+      - link "Skip to left column":
+        - /url: "#stacked-list"
+    - listitem:
+      - link "Skip to main":
+        - /url: "#ntk"
+    - listitem:
+      - link "Skip to right column":
+        - /url: "#right-rail"
+  - link "News":
+    - /url: https://ca.yahoo.com/
+  - link "Finance":
+    - /url: https://ca.finance.yahoo.com/
+  - button "More"
+  - link "Check your mail":
+    - /url: https://mail.yahoo.com/?.intl=ca&.lang=en-CA
+    - text: Mail
+  - link "Sign in":
+    - /url: https://login.yahoo.com/?.lang=en-CA&src=frontpage&done=https%3A%2F%2Fca.yahoo.com%2F%3Fp%3Dus
+- iframe
+- region "Features bar":
+  - paragraph: HoroscopeVirgo
+  - heading "You should find that someone at work (or school or wherever you find yourself during the day) is still on your mind tonight. It could be romance, it could be a new friendship or it could be a role model." [level=3]
+  - combobox "Horoscope":
+    - option "Capricorn"
+    - option "Aquarius"
+    - option "Pisces"
+    - option "Aries"
+    - option "Taurus"
+    - option "Gemini"
+    - option "Cancer"
+    - option "Leo"
+    - option "Virgo" [selected]
+    - option "Libra"
+    - option "Scorpio"
+    - option "Sagittarius"
+  - paragraph: Today in History
+  - heading "Bruce the Moose tumbles at Toronto Air Show" [level=3]
+  - link "Game of the Day Play Mahjongg Serenity Forest 27.2K people playing":
+    - /url: https://www.yahoo.com/games/play/mahjongg-serenity-forest/
+    - paragraph: Game of the Day
+    - heading "Play Mahjongg Serenity Forest" [level=3]
+    - paragraph: 27.2K people playing
+  - paragraph: Featured1:05 PM
+  - heading "Miami" [level=3]
+  - heading "Washington" [level=3]
+  - combobox "Select a league":
+    - option "Featured" [selected]
+    - option "Favourites"
+    - option "NFL"
+    - option "NCAAF"
+    - option "NBA"
+    - option "NHL"
+    - option "NCAAB"
+    - option "NCAAW"
+    - option "Soccer"
+    - option "Premier League"
+    - option "Champions League"
+    - option "La Liga"
+    - option "MLS"
+    - option "MLB"
+    - option "WNBA"
+  - link "Major Markets S&P/TSX 28,564.45 Stock symbol GSPTSE +0.46%":
+    - /url: https://ca.finance.yahoo.com/quote/%5EGSPTSE
+    - paragraph: Major Markets
+    - heading "S&P/TSX" [level=3]
+    - heading "28,564.45" [level=3]
+    - paragraph: Stock symbol GSPTSE
+    - paragraph: +0.46%
+- region "Trending content":
+  - region:
+    - heading "Trending" [level=2]
+    - list:
+      - listitem:
+        - link "Trump Dead":
+          - /url: https://ca.search.yahoo.com/search?p=Trump Dead&fr=fp-tts&fr2=ps
+          - paragraph: Trump Dead
+      - listitem:
+        - link "Toronto Maple Leafs":
+          - /url: https://ca.search.yahoo.com/search?p=Toronto Maple Leafs&fr=fp-tts&fr2=ps
+          - paragraph: Toronto Maple Leafs
+      - listitem:
+        - link "Rudy Giuliani":
+          - /url: https://ca.search.yahoo.com/search?p=Rudy Giuliani&fr=fp-tts&fr2=ps
+          - paragraph: Rudy Giuliani
+      - listitem:
+        - link "US Open Tennis Championships":
+          - /url: https://ca.search.yahoo.com/search?p=US Open Tennis Championships&fr=fp-tts&fr2=ps
+          - paragraph: US Open Tennis Championships
+      - listitem:
+        - link "LPGA":
+          - /url: https://ca.search.yahoo.com/search?p=LPGA&fr=fp-tts&fr2=ps
+          - paragraph: LPGA
+      - listitem:
+        - link "Vancouver Canucks":
+          - /url: https://ca.search.yahoo.com/search?p=Vancouver Canucks&fr=fp-tts&fr2=ps
+          - paragraph: Vancouver Canucks
+      - listitem:
+        - link "Montréal Canadiens":
+          - /url: https://ca.search.yahoo.com/search?p=Montréal Canadiens&fr=fp-tts&fr2=ps
+          - paragraph: Montréal Canadiens
+      - listitem:
+        - link "Arch Manning":
+          - /url: https://ca.search.yahoo.com/search?p=Arch Manning&fr=fp-tts&fr2=ps
+          - paragraph: Arch Manning
+      - listitem:
+        - link "Buffalo Bills":
+          - /url: https://ca.search.yahoo.com/search?p=Buffalo Bills&fr=fp-tts&fr2=ps
+          - paragraph: Buffalo Bills
+      - listitem:
+        - link "Saskatchewan Roughriders":
+          - /url: https://ca.search.yahoo.com/search?p=Saskatchewan Roughriders&fr=fp-tts&fr2=ps
+          - paragraph: Saskatchewan Roughriders
+  - region "Top Deals":
+    - link "Top Deals":
+      - /url: https://ca.style.yahoo.com/shopping/
+      - heading "Top Deals" [level=2]
+    - list:
+      - listitem:
+        - link "MQDXE Cordless Stick Vacuum Cleaner, Sale Price $136, List Price $500, Merchant Amazon":
+          - /url: https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&siteId=ca-style&pageId=pnr-product-module&contentUuid=23ed3c6c-4750-4247-9a59-847b601d8b65&featureId=nebula&itemName=MQDXE+Cordless+Stick+Vacuum+Cleaner&merchantName=Amazon&custData=eyJzb3VyY2VOYW1lIjoiV2ViLURlc2t0b3AtVmVyaXpvbiIsImxhbmRpbmdVcmwiOiJodHRwczovL3d3dy5hbWF6b24uY2EvZ3AvcHJvZHVjdC9CMERHUExRU1lNP3RhZz15YWhvb2NhZWRpdC0yMCIsImNvbnRlbnRVdWlkIjoiMjNlZDNjNmMtNDc1MC00MjQ3LTlhNTktODQ3YjYwMWQ4YjY1Iiwib3JpZ2luYWxVcmwiOiJodHRwczovL3d3dy5hbWF6b24uY2EvZ3AvcHJvZHVjdC9CMERHUExRU1lNIiwiZHluYW1pY0NlbnRyYWxUcmFja2luZ0lkIjp0cnVlLCJzaXRlSWQiOiJjYS1zdHlsZSIsInBhZ2VJZCI6InBuci1wcm9kdWN0LW1vZHVsZSIsImZlYXR1cmVJZCI6Im1hbnVhbC1lbnRyeSJ9&signature=AQAAAVfzn3O3uKdt7N1uW_2f013Z2RPrNDY5kUfDDCy4eoe8&gcReferrer=https%3A%2F%2Fwww.amazon.ca%2Fgp%2Fproduct%2FB0DGPLQSYM&source=rocket-deal-of-the-day
+          - text: MQDXE Cordless Stick Vacuum Cleaner
+        - text: $136 $500 Amazon
+      - listitem:
+        - link "Everywhere Belt Bag 1L Knit Mesh, Sale Price $44, List Price $54, Merchant Lululemon":
+          - /url: https://shopping.yahoo.com/rdlw?merchantId=500de21f-cb3b-4ed4-b352-5cc698275a50&siteId=ca-style&pageId=pnr-product-module&contentUuid=23ed3c6c-4750-4247-9a59-847b601d8b65&featureId=nebula&itemName=Everywhere+Belt+Bag+1L+Knit+Mesh&merchantName=lululemon&custData=eyJzb3VyY2VOYW1lIjoiV2ViLURlc2t0b3AtVmVyaXpvbiIsImxhbmRpbmdVcmwiOiJodHRwczovL3Nob3AubHVsdWxlbW9uLmNvbS9lbi1jYS9wL2JhZ3MvRXZlcnl3aGVyZS1CZWx0LUJhZy0xTC1Lbml0LU1lc2gtTUQvXy9wcm9kMjAwMDIxOTc_Y29sb3I9MDAwMSIsImNvbnRlbnRVdWlkIjoiMjNlZDNjNmMtNDc1MC00MjQ3LTlhNTktODQ3YjYwMWQ4YjY1Iiwib3JpZ2luYWxVcmwiOiJodHRwczovL3Nob3AubHVsdWxlbW9uLmNvbS9lbi1jYS9wL2JhZ3MvRXZlcnl3aGVyZS1CZWx0LUJhZy0xTC1Lbml0LU1lc2gtTUQvXy9wcm9kMjAwMDIxOTc_Y29sb3I9MDAwMSJ9&signature=AQAAAfTpnuZ-muk1ly952uND9_emQ8YEyw1DuUDjyhjhAwhn&gcReferrer=https%3A%2F%2Fshop.lululemon.com%2Fen-ca%2Fp%2Fbags%2FEverywhere-Belt-Bag-1L-Knit-Mesh-MD%2F_%2Fprod20002197%3Fcolor%3D0001
+          - text: Everywhere Belt Bag 1L Knit Mesh
+        - text: $44 $54 Lululemon
+      - listitem:
+        - link "HOSHANHO 7 Inch Japanese Chef Knife, Sale Price $40, List Price $77, Merchant Amazon":
+          - /url: https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&siteId=ca-style&pageId=pnr-product-module&contentUuid=23ed3c6c-4750-4247-9a59-847b601d8b65&featureId=nebula&itemName=HOSHANHO+7+Inch+Japanese+Chef+Knife&merchantName=Amazon&custData=eyJzb3VyY2VOYW1lIjoiV2ViLURlc2t0b3AtVmVyaXpvbiIsImxhbmRpbmdVcmwiOiJodHRwczovL3d3dy5hbWF6b24uY2EvZ3AvcHJvZHVjdC9CMEMxQlFUUUtMP3RhZz15YWhvb2NhZWRpdC0yMCIsImNvbnRlbnRVdWlkIjoiMjNlZDNjNmMtNDc1MC00MjQ3LTlhNTktODQ3YjYwMWQ4YjY1Iiwib3JpZ2luYWxVcmwiOiJodHRwczovL3d3dy5hbWF6b24uY2EvZ3AvcHJvZHVjdC9CMEMxQlFUUUtMIiwiZHluYW1pY0NlbnRyYWxUcmFja2luZ0lkIjp0cnVlLCJzaXRlSWQiOiJjYS1zdHlsZSIsInBhZ2VJZCI6InBuci1wcm9kdWN0LW1vZHVsZSIsImZlYXR1cmVJZCI6Im1hbnVhbC1lbnRyeSJ9&signature=AQAAAZrFwl3M3PDozOwKBlO_ZGj4B8EXBeoBo15OhvXDfifl&gcReferrer=https%3A%2F%2Fwww.amazon.ca%2Fgp%2Fproduct%2FB0C1BQTQKL&source=rocket-deal-of-the-day
+          - text: HOSHANHO 7 Inch Japanese Chef Knife
+        - text: $40 $77 Amazon
+    - text: When you buy via links on our site, we may receive compensation.
+  - region "Explore More":
+    - heading "Explore More" [level=2]
+    - list:
+      - listitem:
+        - link "News":
+          - /url: https://ca.news.yahoo.com/
+      - listitem:
+        - link "Finance":
+          - /url: https://ca.finance.yahoo.com/
+      - listitem:
+        - link "Sports":
+          - /url: https://ca.sports.yahoo.com/
+      - listitem:
+        - link "Mail":
+          - /url: https://ca.mail.yahoo.com/
+      - listitem:
+        - link "Search":
+          - /url: https://ca.search.yahoo.com/
+      - listitem:
+        - link "Games":
+          - /url: https://www.yahoo.com/games/
+      - listitem:
+        - link "Shopping":
+          - /url: https://ca.style.yahoo.com/shopping/
+      - listitem:
+        - link "Entertainment":
+          - /url: https://ca.movies.yahoo.com
+      - listitem:
+        - link "Life":
+          - /url: https://ca.style.yahoo.com/
+- main "Top stories and Stories for you":
+  - group "Top stories":
+    - status: 10 of 15
+    - button "Pause"
+    - button "Previous slide"
+    - button "Next slide"
+    - group "Slide 10 of 15":
+      - link "Image for Taboola Advertising Unit":
+        - /url: https://ca.theepochtimes.com/survey/best_prime_minister_v3
+        - img "Image for Taboola Advertising Unit"
+      - link "The Epoch Times in Taboola advertising section Taboola Disclosure Who Has Been the Best Canadian Prime Minister? Take the Poll":
+        - /url: https://ca.theepochtimes.com/survey/best_prime_minister_v3
+        - link "The Epoch Times in Taboola advertising section": The Epoch Times
+        - link "Taboola Disclosure":
+          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-homepage-canada&utm_medium=referral&utm_content=ntk-a-rocket:taboola-ntk-rocket-9:"
+          - text: AD
+        - link "Who Has Been the Best Canadian Prime Minister? Take the Poll"
+  - heading "Old Navy's Labour Day sale is on now — up to 50% off" [level=3]:
+    - link "Old Navy's Labour Day sale is on now — up to 50% off":
+      - /url: /style/more-than-6800-items-are-on-sale-at-old-navy-for-labour-day--20-of-the-best-sweaters-jackets-jeans--more-for-fall-all-up-to-50-off-192755982.html
+  - text: Yahoo Canada Style
+  - heading "Scientists try wild new tactic to protect cows from wolves. It might just work" [level=3]:
+    - link "Scientists try wild new tactic to protect cows from wolves. It might just work":
+      - /url: /news/drones-blasting-ac-dc-scarlett-040609915.html
+  - text: Associated Press
+  - heading "Canada-wide warrant for convoy leader who failed to appear in court" [level=3]:
+    - link "Canada-wide warrant for convoy leader who failed to appear in court":
+      - /url: /news/convoy-leader-james-bauder-faces-153012968.html
+  - text: Ottawa Citizen
+  - heading "For You" [level=2]
+  - list:
+    - listitem:
+      - text: Politics
+      - heading "Trump Motorcade Gets A Very Blunt Message From A Lone Protester" [level=3]:
+        - link "Trump Motorcade Gets A Very Blunt Message From A Lone Protester":
+          - /url: /news/trump-motorcade-gets-very-blunt-080932793.html
+      - text: HuffPost
+    - listitem:
+      - link "Image for Taboola Advertising Unit":
+        - /url: https://www.thebullishbrief.com/briefs/is-this-the-smartest-crypto-stock-play-of-2025
+        - img "Image for Taboola Advertising Unit"
+      - link "The Bullish Brief in Taboola advertising section Taboola Disclosure Is this the Smartest Crypto Stock Play of 2025?":
+        - /url: https://www.thebullishbrief.com/briefs/is-this-the-smartest-crypto-stock-play-of-2025
+        - link "The Bullish Brief in Taboola advertising section": The Bullish Brief
+        - link "Taboola Disclosure":
+          - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=yahoo-homepage-canada&utm_medium=referral&utm_content=stream-d-rocket-v4:taboola-stream-rocket-1:"
+          - text: Ad
+        - link "Is this the Smartest Crypto Stock Play of 2025?"
+    - listitem:
+      - text: Entertainment
+      - heading "Here's What Happened With The Adult Who Swiped The Child's Hat At The US Open" [level=3]:
+        - link "Here's What Happened With The Adult Who Swiped The Child's Hat At The US Open":
+          - /url: /sports/news/kid-got-us-open-signed-203202592.html
+      - text: BuzzFeed
+    - listitem:
+      - text: News
+      - heading "Man Gave His Baby Daughter Benadryl Because He Wanted Alone Time with His Wife. Now, He’s Been Convicted of Manslaughter" [level=3]:
+        - link "Man Gave His Baby Daughter Benadryl Because He Wanted Alone Time with His Wife. Now, He’s Been Convicted of Manslaughter":
+          - /url: /news/man-gave-baby-daughter-benadryl-001856962.html
+      - text: People
+    - listitem:
+      - text: Business
+      - heading "Kevin O’Leary reveals why Americans are fleeing to Canada — and it’s not because they dislike the US. Do you agree?" [level=3]:
+        - link "Kevin O’Leary reveals why Americans are fleeing to Canada — and it’s not because they dislike the US. Do you agree?":
+          - /url: /finance/news/kevin-o-leary-reveals-why-210000492.html
+      - text: Moneywise
+    - listitem:
+      - heading "From Our Shopping Experts" [level=3]:
+        - link "From Our Shopping Experts":
+          - /url: https://ca.style.yahoo.com/shopping/
+      - heading "Lululemon just dropped 100s of Labour Day deals — 13 of the best, from $24" [level=3]:
+        - link "Lululemon just dropped 100s of Labour Day deals — 13 of the best, from $24":
+          - /url: /style/lululemon-just-dropped-100s-of-labour-day-we-made-too-much-finds--13-of-the-best-from-24-135038191.html
+      - text: Melina Brum
+      - heading "25 very best Amazon Labour Day deals up to 88% off" [level=3]:
+        - link "25 very best Amazon Labour Day deals up to 88% off":
+          - /url: /style/amazon-canadas-labour-day-deals-are-here-25-best-finds-to-add-to-your-cart-from-apple-dyson-and-more--up-to-88-off-110042952.html
+      - text: Melina Brum
+      - heading "20 best Old Navy Labour Day deals up to 50% off" [level=3]:
+        - link "20 best Old Navy Labour Day deals up to 50% off":
+          - /url: /style/more-than-6800-items-are-on-sale-at-old-navy-for-labour-day--20-of-the-best-sweaters-jackets-jeans--more-for-fall-all-up-to-50-off-192755982.html
+      - text: Kayla Kuefler
+      - heading "5 editor-approved Lululemon bags we highly recommend" [level=3]:
+        - link "5 editor-approved Lululemon bags we highly recommend":
+          - /url: /style/5-editor-approved-lululemon-bags-we-highly-recommend--plus-13-other-bags-and-accessories-for-fall-2025-145011415.html
+      - text: Melina Brum
+    - listitem:
+      - text: Celebrity
+      - heading "Prince Harry's Demands Before King Charles Reunion Revealed" [level=3]:
+        - link "Prince Harry's Demands Before King Charles Reunion Revealed":
+          - /url: /news/prince-harrys-demands-king-charles-213054218.html
+      - text: TheBlast
+    - listitem
+    - listitem:
+      - text: Politics
+      - heading "Trump Breaks Silence On Health Rumors After Days Of Limited Appearances" [level=3]:
+        - link "Trump Breaks Silence On Health Rumors After Days Of Limited Appearances":
+          - /url: /news/trump-breaks-silence-health-rumors-034711250.html
+      - text: HuffPost
+    - listitem:
+      - text: Business
+      - heading "Costco's Controversial Policy Change Is Officially Starting — Here's What to Know, Including Why Some May Be Denied Entry" [level=3]:
+        - link "Costco's Controversial Policy Change Is Officially Starting — Here's What to Know, Including Why Some May Be Denied Entry":
+          - /url: /news/costcos-controversial-policy-change-officially-192521381.html
+      - text: People
+    - listitem
+    - listitem:
+      - text: Lifestyle
+      - heading "Shania Twain, 60, looks as young as she did in the '80s — she credits this $17 beauty product as the 'best of all things'" [level=3]:
+        - link "Shania Twain, 60, looks as young as she did in the '80s — she credits this $17 beauty product as the 'best of all things'":
+          - /url: /style/shania-twain-60-looks-as-young-as-she-did-in-the-80s--she-credits-this-17-beauty-product-as-the-best-of-all-things-192407072.html
+      - text: Yahoo Canada Style
+    - listitem:
+      - iframe
+      - text: News
+      - heading "Texas Congressman Dan Crenshaw faced MAGA’s full fury as his constituents demanded the GOP release more details of the late financier’s crimes and affiliations." [level=3]:
+        - link "Texas Congressman Dan Crenshaw faced MAGA’s full fury as his constituents demanded the GOP release more details of the late financier’s crimes and affiliations.":
+          - /url: /news/texas-congressman-dan-crenshaw-faced-183849172.html
+      - text: The Daily Beast
+    - listitem
+    - listitem:
+      - text: Lifestyle
+      - heading "Man Tries to Dig Up Rock in His Front Yard, but What He Finds Is Bigger Than Anything He Could've Imagined (Exclusive)" [level=3]:
+        - link "Man Tries to Dig Up Rock in His Front Yard, but What He Finds Is Bigger Than Anything He Could've Imagined (Exclusive)":
+          - /url: /news/man-tries-dig-rock-front-213000212.html
+      - text: People
+    - listitem:
+      - text: Lifestyle
+      - heading "A Dad Tried To Bully Me Into Giving My Seat To His Kid. Here's What Happened When I Said No." [level=3]:
+        - link "A Dad Tried To Bully Me Into Giving My Seat To His Kid. Here's What Happened When I Said No.":
+          - /url: /style/dad-tried-bully-giving-seat-013102710.html
+      - text: BuzzFeed
+    - listitem:
+      - text: News
+      - heading "Tiny B.C. town on edge because of one man who 'terrorized the whole community'" [level=3]:
+        - link "Tiny B.C. town on edge because of one man who 'terrorized the whole community'":
+          - /url: /news/tiny-b-c-town-edge-185214141.html
+      - text: The Vancouver Sun
+    - listitem:
+      - text: Sports
+      - heading "Trump Loses His Marbles With Error-Riddled Baseball Rant" [level=3]:
+        - link "Trump Loses His Marbles With Error-Riddled Baseball Rant":
+          - /url: /sports/news/trump-loses-marbles-error-riddled-181816755.html
+      - text: The Daily Beast
+    - listitem
+    - listitem:
+      - text: Lifestyle
+      - heading "47 Fall Dinner Ideas You’ll Crave All Season" [level=3]:
+        - link "47 Fall Dinner Ideas You’ll Crave All Season":
+          - /url: /style/51-easy-fall-recipes-weeknight-110000565.html
+      - text: Epicurious
+    - listitem:
+      - text: Celebrity
+      - heading "Brad Pitt Maybe Unable To Shake Off Hurricane Katrina Victims In $20.5M Class Action Suit" [level=3]:
+        - link "Brad Pitt Maybe Unable To Shake Off Hurricane Katrina Victims In $20.5M Class Action Suit":
+          - /url: /news/brad-pitt-maybe-unable-shake-173027479.html
+      - text: TheBlast
+    - listitem:
+      - text: Celebrity
+      - heading "Oscar Winner Linda Hunt Looks 'Frightening' In Rare Public Outing" [level=3]:
+        - link "Oscar Winner Linda Hunt Looks 'Frightening' In Rare Public Outing":
+          - /url: /news/oscar-winner-linda-hunt-looks-203045338.html
+      - text: TheBlast
+    - listitem:
+      - text: News
+      - heading "Florida man driving a special truck designed to safely absorb the impact of crashes killed after car plows into the vehicle" [level=3]:
+        - link "Florida man driving a special truck designed to safely absorb the impact of crashes killed after car plows into the vehicle":
+          - /url: /news/florida-man-driving-special-truck-041651027.html
+      - text: The Independent
+    - listitem
+    - listitem:
+      - text: Sports
+      - 'heading "SIMMONS SAYS: Don''t buy into Mitch Marner''s spin on why he left Maple Leafs" [level=3]':
+        - 'link "SIMMONS SAYS: Don''t buy into Mitch Marner''s spin on why he left Maple Leafs"':
+          - /url: /news/simmons-says-dont-buy-mitch-120021506.html
+      - text: Toronto Sun
+    - listitem:
+      - text: News
+      - heading "35 shot, 5 dead, in Chicago amid Trump's threat to deploy National Guard" [level=3]:
+        - link "35 shot, 5 dead, in Chicago amid Trump's threat to deploy National Guard":
+          - /url: /news/35-shot-chicago-governor-rejects-204406894.html
+      - text: ABC News
+    - listitem:
+      - text: Business
+      - heading "The ‘self-inflicted injury’ to US tourism that’s making some Americans angry and disappointed" [level=3]:
+        - link "The ‘self-inflicted injury’ to US tourism that’s making some Americans angry and disappointed":
+          - /url: /news/self-inflicted-injury-us-tourism-130005171.html
+      - text: CNN
+    - listitem:
+      - text: Celebrity
+      - heading "Woman's Video of Son, 3, Playing with Man at the Park Goes Viral Due to Unexpected Reason Behind Bittersweet Bond (Exclusive)" [level=3]:
+        - link "Woman's Video of Son, 3, Playing with Man at the Park Goes Viral Due to Unexpected Reason Behind Bittersweet Bond (Exclusive)":
+          - /url: /news/womans-video-son-3-playing-090000713.html
+      - text: People
+    - listitem
+    - listitem:
+      - text: News
+      - heading "Man, 19, charged after 1 dead, multiple injured in 401 crash Saturday morning" [level=3]:
+        - link "Man, 19, charged after 1 dead, multiple injured in 401 crash Saturday morning":
+          - /url: /news/man-19-charged-1-dead-135958673.html
+      - text: CBC
+    - listitem:
+      - text: Sports
+      - heading "Capitals' Alex Ovechkin breaks silence on retirement decision" [level=3]:
+        - link "Capitals' Alex Ovechkin breaks silence on retirement decision":
+          - /url: /sports/news/capitals-alex-ovechkin-breaks-silence-170852191.html
+      - text: The Sporting News
+    - listitem:
+      - text: Lifestyle
+      - heading "Michael Kors has 100s of Labour Day deals — 11 of the very best, including a chic carry all for $488 off" [level=3]:
+        - link "Michael Kors has 100s of Labour Day deals — 11 of the very best, including a chic carry all for $488 off":
+          - /url: /style/michael-kors-has-100s-of-labour-day-deals--11-of-the-very-best-including-a-chic-carry-all-for-488-off-165103520.html
+      - text: Yahoo Canada Style
+    - listitem:
+      - text: Politics
+      - 'heading "‘They Should Pay Me More!!!’: Donald Trump Melts Down Over ABC News Again" [level=3]':
+        - 'link "‘They Should Pay Me More!!!’: Donald Trump Melts Down Over ABC News Again"':
+          - /url: /news/pay-more-donald-trump-melts-085633542.html
+      - text: HuffPost
+    - listitem
+    - listitem:
+      - text: Celebrity
+      - heading "After Rumors That Pamela Anderson And Liam Neeson Faked Their Relationship To Promote \"The Naked Gun,\" A New Report Has Revealed The Truth" [level=3]:
+        - link "After Rumors That Pamela Anderson And Liam Neeson Faked Their Relationship To Promote \"The Naked Gun,\" A New Report Has Revealed The Truth":
+          - /url: /news/rumors-pamela-anderson-liam-neeson-145401555.html
+      - text: BuzzFeed
+    - listitem:
+      - text: Lifestyle
+      - heading "Photos show city balconies united under red flags for Vietnam's National Day" [level=3]:
+        - link "Photos show city balconies united under red flags for Vietnam's National Day":
+          - /url: /news/photos-show-city-balconies-united-052810779.html
+      - text: The Canadian Press
+    - listitem:
+      - iframe
+      - text: News
+      - heading "Meet Matéo, the 6-year-old Quebecer who boards a plane to school every day" [level=3]:
+        - link "Meet Matéo, the 6-year-old Quebecer who boards a plane to school every day":
+          - /url: /news/meet-mat-o-6-old-080000376.html
+      - text: CBC
+    - listitem:
+      - text: Sports
+      - heading "Blue Jays add 808-hit utility infielder for September postseason push" [level=3]:
+        - link "Blue Jays add 808-hit utility infielder for September postseason push":
+          - /url: /sports/news/blue-jays-add-808-hit-173103220.html
+      - text: The Sporting News
+  - list:
+    - listitem
+    - listitem
+    - listitem
+- complementary "Weather, games, newsletter sign up, and more":
+  - link "Weather":
+    - /url: https://ca.news.yahoo.com/weather/forecast/24020752
+  - button "Nepean"
+  - img "Sunny"
+  - text: 16° Sunny, feels like 20° TODAY 27° 14° TUE 26° 12° WED 26° 13° THU 24° 12° Powered by AccuWeather
+  - link "View full forecast":
+    - /url: https://ca.news.yahoo.com/weather/forecast/24020752
+  - iframe
+  - heading "Popular Games" [level=2]:
+    - link "Popular Games":
+      - /url: https://www.yahoo.com/games/
+  - link "Solitaire Classic Play now Solitaire Classic 50K people playing":
+    - /url: https://www.yahoo.com/games/play/solitaire-classic/
+    - img "Solitaire Classic"
+    - text: Play now
+    - paragraph: Solitaire Classic
+    - paragraph: 50K people playing
+  - link "Mahjongg Serenity Forest Play now Mahjongg Serenity Forest 27.2K people playing":
+    - /url: https://www.yahoo.com/games/play/mahjongg-serenity-forest/
+    - img "Mahjongg Serenity Forest"
+    - text: Play now
+    - paragraph: Mahjongg Serenity Forest
+    - paragraph: 27.2K people playing
+  - link "Blackjack Single Deck Play now Blackjack Single Deck 23.5K people playing":
+    - /url: https://www.yahoo.com/games/play/blackjack-single-deck/
+    - img "Blackjack Single Deck"
+    - text: Play now
+    - paragraph: Blackjack Single Deck
+    - paragraph: 23.5K people playing
+  - iframe
+  - iframe
+  - iframe
+  - list:
+    - listitem:
+      - link "Twitter":
+        - /url: https://x.com/YahooCanadaNews
+    - listitem:
+      - link "Facebook":
+        - /url: https://facebook.com/YahooCanada
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/yahoocanada
+  - list:
+    - listitem:
+      - link "Terms":
+        - /url: https://guce.yahoo.com/terms?locale=en-CA
+      - text: and
+      - link "Privacy Policy":
+        - /url: https://guce.yahoo.com/privacy-policy?locale=en-CA
+    - listitem:
+      - link "Privacy Dashboard":
+        - /url: https://guce.yahoo.com/privacy-dashboard?locale=en-CA
+    - listitem:
+      - link "Advertise":
+        - /url: https://www.yahooinc.com/
+    - listitem:
+      - link "About Our Ads":
+        - /url: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+    - listitem:
+      - link "Careers":
+        - /url: https://www.yahooinc.com/careers/
+    - listitem:
+      - link "Help":
+        - /url: https://help.yahoo.com/kb/account
+    - listitem:
+      - link "Feedback":
+        - /url: https://yahoo.uservoice.com/forums/341361-yahoo-home
+    - listitem:
+      - link:
+        - /url: https://www.yahoo.com/news/finance_data.html
+  - text: © 2025 Yahoo. All rights reserved.
+- alert
+```
